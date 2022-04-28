@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+  border:0;
+  padding:0;
+  margin:0;
+  
+}
+
+
+div{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family:sans-serif;
+  min-height:100vh;
+  width:100%;
+  
+   
+  
+}
+
+h2{
+  font-size:60px;
+  background:none;
+  padding:2px 0.5em;
+  border-radius:16px;
+  color:white;
+  
+}
+h3{
+  
+  background:none;
+  padding:2px 0.5em;
+  border-radius:16px;
+  color:white;
+}
+
+div:nth-child(1){
+  background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='788' height='94.6' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='20.7' stroke-opacity='0.86'%3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+ background-size:cover;
+}
+
+div:nth-child(2){
+  position:relative;
+  background-color: maroon;  
+  background-size:cover;
+  align-items:center;
+  justify-content:center;
+  min-height:20em;
+ }
+
+div:nth-child(3){
+   min-height:40em;
+  background-image:url("https://www.teahub.io/photos/full/99-996837_free-large-screen-wallpaper-hd-background-mountain-4k.jpg");
+  background-size:cover;
+  background-attachment:fixed;
+}
+  
+div:nth-child(4){
+     background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='788' height='94.6' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='20.7' stroke-opacity='0.86'%3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+ background-size:cover;
+ padding:0;
+ margin:0;
+   .cardls{
+  display:flex;
+  padding:3rem;
+  
+}
+
+.card{
+  display:flex;
+  position:relative;
+  flex-direction: column;
+  height:350px;
+  width:400px;
+  min-width:250;
+  padding:1.5rem;
+  border-radius:16px;
+  background:linear-gradient(22.79deg, rgba(242, 35, 35, 0.87) 57.74%, #FC541F 80.92%);;
+  box-shadow: -1rem 0 3rem #000;
+  transition:.5s;
+}
+
+.card:hover{
+  transform: translateY(-1rem);
+  
+  
+}
+
+.card:hover~.card{
+  transform: translateX(130px);
+  
+}
+
+.card:not(:first-child){
+  margin-left:-130px;
+  
+}
+  }
+
+div:nth-child(5){
+  background-color:black;
+}
+
+#paralax{
+  
+ 
+  
+  section{
+    position:relative;
+    margin-left:10em;
+    
+    border-radius:20px;
+    
+    
+  }
+}
+
+.head{
+  background:none;
+  
+}
+
+
+
+.logo{
+  position:relative;
+  margin-left:15em;
+}
+
+.btn{
+  border:none;
+  background-color: inherit;
+  color:white;
+  font-size:55px;
+  font-family:sans-serif;
+  font-weight:bold;
+  
+}
+
+.name:hover{
+    background:linear-gradient(218.54deg, #EB4600 22.17%, #C83535 54.84%);
+  -webkit-text-fill-color:transparent;
+  -webkit-background-clip:text;
+  transition:ease-in 0.5s
+}
+
+ul{
+  list-style:none;
+  padding:0px;
+  margin:10px;
+  color:white;
+}
+li{
+    padding:2em 1em;
+  }
+a{
+    text-decoration:none;
+  }
+
+.div3{
+  background:white;
+  color:black;
+  
+  
+}
+
+
+
+.bton{
+  background:inherit;
+  font-size:32px;
+  cursor:pointer;
+}
+
+.skills:hover{
+  color:blue;
+  
+}
+
+.element_1{
+  position:relative;
+  left:-40em;
+  top:7em;
+  font-family: 'Cedarville Cursive', cursive;
+  line-height:80%;
+  
+  }
+
+.element_2{
+  position:relative;
+  font-family: 'Cedarville Cursive', cursive;
+  margin:20px;
+
+  top:-8em;
+  
+}
+.element_3{
+  position:relative;
+  font-family:'Cedarville Cursive', cursive;
+  top:-8em;
+  left:-80%;
+  
+}
+
+.cmbt{
+  color:#a6a1a1;
+}
+
+#about{
+ background:linear-gradient(218.54deg, #EB4600 22.17%, #C83535 54.84%);
+  -webkit-text-fill-color:transparent;
+  -webkit-background-clip:text;
+}
+
+
+
