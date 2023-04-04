@@ -1,7 +1,7 @@
 # vercel2.1
 simple portfolio  deployed on vercel (2.1)
 
-## Made for desktop only.
+## Added meta to work for mobile as well!
 
 ## This is a simple playground website
   
